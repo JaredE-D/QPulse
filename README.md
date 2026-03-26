@@ -66,13 +66,13 @@ Running with $d = 3$ and $d = 4$ levels produces nearly identical results for th
 
 ### 7. Open Quantum System (Lindblad)
 
-Adding $T_1 = 50\ \mu\text{s}$ relaxation and $T_2 = 70\ \mu\text{s}$ dephasing via Lindblad collapse operators $\hat{L}_1 = \sqrt{1/T_1}\,\hat{a}$ and $\hat{L}_\phi = \sqrt{\gamma_\phi}\,\hat{n}$. At these coherence times, decoherence during a 40 ns gate is negligible — leakage dominates the error.
+Adding $T_1 = 50\ \mu\text{s}$ relaxation and $T_2 = 70\ \mu\text{s}$ dephasing via Lindblad collapse operators are minimal. At these coherence times, decoherence during a 40 ns gate is negligible — leakage dominates the error.
 
 ![Open system population dynamics with T1 and T2 decoherence](docs/figures/07_open_system.png)
 
 ### 8. Leakage-Limited Regime
 
-Sweeping $T_1$ from $1\ \mu\text{s}$ to $300\ \mu\text{s}$ shows the Gaussian infidelity saturating at long coherence times — proof that leakage, not decoherence, is the dominant error. DRAG breaks through this floor.
+Sweeping $T_1$ from $1 \mu\text{s}$ to $300 \mu\text{s}$ shows the Gaussian infidelity saturating at long coherence times — proof that leakage, not decoherence, is the dominant error. DRAG breaks through this floor.
 
 ![Gate infidelity versus T1 showing the leakage-limited regime](docs/figures/08_infidelity_vs_t1.png)
 
