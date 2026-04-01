@@ -26,7 +26,7 @@ where $\hat{a}$, $\hat{a}^\dagger$ are bosonic operators truncated to 3+ levels,
 | $\alpha/2\pi$ | -300 MHz | Anharmonicity |
 | $t_g$ | 40 ns | Gate duration |
 | $n_\sigma$ | 2 | Gaussian truncation ($\pm 2\sigma$) |
-| $\Omega_\text{peak}/|\alpha|$ | 0.57 | Drive strength ratio |
+| $\Omega_\text{peak}$ | $\alpha=0.57$  | Drive strength ratio |
 
 ### 1. Pulse Envelopes
 
